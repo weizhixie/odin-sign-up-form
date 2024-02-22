@@ -4,7 +4,42 @@
     padding: 0;
 }
 
+:root {
+    --white-clr: #F9FAFB;
+}
+
 body {
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.image-sidebar {
+    flex: 35%;
+    max-width: 35%;
+    display: flex;
+}
+
+.sidebar-bg {
+    flex: 0 0 100%;
+}
+
+.photo-credit {
+    position: absolute;
+    color: var(--white-clr);
+    font-size: 1.3rem;
+    bottom: 8px;
+    left: 8%;
+}
+
+.photo-credit>a:link,
+.photo-credit>a:visited {
+    color: var(--white-clr);
+}
+
+.main-content {
+    background-color: var(--white-clr);
+    flex: 65%;
+    max-width: 65%;
 }
