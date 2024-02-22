@@ -5,7 +5,7 @@
 }
 
 :root {
-    --white-clr: #F9FAFB;
+    --white-clr: #f9fafb;
 }
 
 body {
@@ -41,6 +41,26 @@ body {
 
 .photo-credit>a:link,
 .photo-credit>a:visited {
+    color: var(--white-clr);
+}
+
+.odin-logo {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-logo > img{
+    height: 8rem;
+}
+
+.odin-logo > p{
+    font-size: 6rem;
     color: var(--white-clr);
 }
 
