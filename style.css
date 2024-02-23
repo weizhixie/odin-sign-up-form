@@ -132,3 +132,15 @@ body {
     color: var(--grass-green);
     text-decoration: none;
 }
+
+#match {
+    color: red;
+}
+
+.hidden {
+    display:none !important;
+}
+
+.error:invalid {
+    border: 1px solid red;
+}
