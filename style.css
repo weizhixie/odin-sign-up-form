@@ -106,6 +106,12 @@ body {
     border: 1px solid #E5E7EB;
 }
 
+.form-fields>div>input:focus {
+    outline: none;
+    border:1px solid blue;
+    box-shadow: 1px 1px 8px lightblue;
+}
+
 .sign-up-form>button {
     margin: 32px;
     background-color: var(--grass-green);
