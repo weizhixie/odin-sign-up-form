@@ -6,6 +6,7 @@
 
 :root {
     --white-clr: #f9fafb;
+    --grass-green: #596D48;
 }
 
 body {
@@ -49,17 +50,17 @@ body {
     background: rgba(0, 0, 0, 0.5);
     padding: 10px;
     width: 100%;
-    top: 10%;
+    top: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.odin-logo > img{
+.odin-logo>img {
     height: 8rem;
 }
 
-.odin-logo > p{
+.odin-logo>p {
     font-size: 6rem;
     color: var(--white-clr);
 }
@@ -71,9 +72,57 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 50px;
+}
+
+.main-content>p {
+    font-size: 1.8rem;
     padding: 32px;
 }
 
-.main-content > p {
+.form-fields {
+    background-color: white;
+}
+
+.form-fields>h3 {
     font-size: 1.5rem;
+    padding: 12px 32px;
+}
+
+.form-fields>div {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 8px 32px;
+}
+
+.form-fields>div>label,
+.form-fields>div>input {
+    display: block;
+}
+
+.form-fields>div>input {
+    width: 20rem;
+    height: 2.3rem;
+    border: 1px solid #E5E7EB;
+}
+
+.sign-up-form>button {
+    margin: 32px;
+    background-color: var(--grass-green);
+    color: var(--white-clr);
+    width: 13rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+}
+
+.sign-up-form>p {
+    font-size: 1.1rem;
+    padding: 0 32px;
+}
+
+.sign-up-form>p>a:link,
+.sign-up-form>p>a:visited {
+    color: var(--grass-green);
+    text-decoration: none;
 }
